@@ -4,7 +4,6 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
-  SiTypescript,
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
@@ -19,10 +18,6 @@ import { showHoverAnimation, removeHoverAnimation } from '../lib/windowAnimation
 import { FadeContainer, popUp } from '../lib/FramerMotionVariants'
 
 const skills = [
-  {
-    name: 'TypeScript',
-    logo: SiTypescript,
-  },
   {
     name: 'HTML',
     logo: SiHtml5,
