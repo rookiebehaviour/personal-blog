@@ -1,22 +1,21 @@
 const siteMetadata = {
-  title: 'cwarcup - Curtis Warcup',
-  author: 'Curtis Warcup',
-  headerTitle: 'Curtis Warcup - Web Developer',
-  description:
-    'Personal blog and web development notes created by Curtis Warcup. Also contains projects and personal interests.',
+  title: 'About Jacqueline Mason | Web Developer',
+  author: 'Jacqueline Mason',
+  headerTitle: 'Jacqueline Mason - Web Developer',
+  description: `Personal portfolio and blog by Jacqueline Mason, Web Developer.`,
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://cwarcup.com',
-  siteRepo: 'https://github.com/Cwarcup/personal-blog',
+  siteUrl: 'https://jacqueline-mason.netlify.app',
+  siteRepo: 'https://github.com/rookiebehaviour/personal-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'curtis.gwarcup@gmail.com',
-  github: 'https://github.com/Cwarcup',
+  email: 'jmason.tta@gmail.com',
+  github: 'https://github.com/rookiebehaviour',
   twitter: 'https://twitter.com/curtiswarcup',
   facebook: 'https://www.facebook.com/curtis.wwwwww',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/curtiswarcup/',
+  linkedin: 'https://www.linkedin.com/in/jacquelinesd/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
