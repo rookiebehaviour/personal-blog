@@ -6,11 +6,12 @@ import {
   SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
-  SiPostgresql,
+  SiSupabase,
   SiTailwindcss,
-  SiRedux,
-  SiFirebase,
-  SiGit,
+  SiVuedotjs,
+  SiVuetify,
+  SiBootstrap,
+  SiFigma,
 } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
@@ -35,33 +36,36 @@ const skills = [
     logo: SiReact,
   },
   {
-    name: 'Tailwind CSS',
-    logo: SiTailwindcss,
+    name: 'Vue',
+    logo: SiVuedotjs,
+  },
+  {
+    name: 'Vuetify',
+    logo: SiVuetify,
   },
   {
     name: 'Nextjs',
     logo: SiNextdotjs,
   },
   {
+    name: 'Bootstrap',
+    logo: SiBootstrap,
+  },
+  {
+    name: 'Tailwind CSS',
+    logo: SiTailwindcss,
+  },
+  {
     name: 'Node.js',
     logo: SiNodedotjs,
   },
   {
-    name: 'PostgreSQL',
-    logo: SiPostgresql,
+    name: 'Supabase',
+    logo: SiSupabase,
   },
   {
-    name: 'Redux',
-    logo: SiRedux,
-  },
-
-  {
-    name: 'Firebase',
-    logo: SiFirebase,
-  },
-  {
-    name: 'Git',
-    logo: SiGit,
+    name: 'Figma',
+    logo: SiFigma,
   },
 ]
 
