@@ -6,7 +6,7 @@ import { Analytics } from '@vercel/analytics/react'
 
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, MailIcon } from '@/components/social-icons'
-import portraitImage from '../public/static/images/avatar.jpg'
+import portraitImage from '../public/static/images/square-profile-pic.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -30,7 +30,7 @@ export default function About() {
         <title>{`About - ${author}`}</title>
         <meta
           name="description"
-          content="Hi, I'm Curtis Warcup. I'm a software engineer and a lifelong learner. I'm passionate about building great software and sharing what I learn along the way."
+          content="Hello, I'm Jacqueline Mason. I'm a Web Developer based in Middletown, Ohio that specializes in business applications."
         />
       </Head>
       <Container className="mt-10">
@@ -39,7 +39,7 @@ export default function About() {
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
                 src={portraitImage}
-                alt="portrait of Curtis Warcup"
+                alt="Jacqueline Mason"
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
@@ -47,31 +47,22 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Curtis Warcup. I live in rainy Vancouver, BC.
+              I’m Jacqueline Mason. A Web Developer based in Ohio.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I've always loved taking apart things, figuring out how they work, and putting them
-                back together (or not, sorry Mom & Dad). I've been a lifelong learner, and I'm
-                passionate about building great websites and sharing what I learn along the way.
+                My name is Jacqueline Mason. I'm a creative Frontend Web Developer from Middletown,
+                Ohio. I predominantly work within the MERN and MEVN stacks, but I love learning new
+                frameworks and technologies... like Svelte 😍. In my free time, I like gaming
+                (PlayStation and PC), roller skating, bowling, and spending time with my family.
               </p>
               <p>
-                During my time at the University of British Columbia, I studied Kinesiology (the
-                study of human movement) while I worked towards applying to medical school. After an
-                unsuccessful application cycle, I decided to take a year off and work at Apple as an
-                iPhone repair technician. This was an exciting time since Apple was offering their
-                iPhone battery replacement program for $29, and I was able to help hundreds of
-                customers save hundreds of dollars. I also got to work with some of the most
-                talented people I've ever met, and I learned a lot about customer service and how to
-                work with a team.
-              </p>
-              <p>
-                I fell in love with the fast-paced environment of Apple and moved into a role as a
-                Genius where I learnt how to handle complex technical issues and navigate difficult
-                customer interactions. I quickly moved into a middle management role as a Lead and
-                was responsible for all the daily operations of the store. I was able to learn a lot
-                about how to manage a team, manage a budget, prioritize effectively and deal with
-                ambiguity.
+                The online community knows me as Rookie Behaviour, or simply... Rookie. No, it has
+                nothing to do with my coding skills, but my gaming skills 😂. I ran my own Virtual
+                Assistance business for almost a decade before changing careers so I have a heart
+                for small businesses along with non-profits. <br /> <br /> My interests include:{' '}
+                <br /> Full-Stack Web Development • Front-End • Web Apps • Responsive Web Design •
+                Ethical Hacking Enthusiast (PenTester)
               </p>
             </div>
           </div>
@@ -88,7 +79,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                curtis.gwarcup@gmail.com
+                jmason.tta@gmail.com
               </SocialLink>
             </ul>
           </div>

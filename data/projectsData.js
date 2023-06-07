@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'Custom Login Page',
     description:
-      'This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data.',
+      'This project is still in development. This is the login page for a multi-tenancy business app that I still contribute to for Hephium (A startup Software Development Company based in Florida). I am one of the original developers on this project.',
     imgSrc: '/static/images/projectCards/rubylog-login.png',
     href: 'https://github.com/Cwarcup/coffee-shops',
     deployed: 'https://coffee-shops-cwarcup.vercel.app',
@@ -11,19 +11,20 @@ const projectsData = [
   {
     title: 'Dashboard Light Mode',
     description:
-      "This is a Next.js, Tailwind CSS starter template intended to be used as a portfolio or personal website. It comes out of the box configured with the latest technologies, tools, and best practices. It's built to be easily configured, customized and extended. It's also fully responsive and mobile friendly.",
+      'This is is the dashboard in light mode for RubyLog, a desktop multi-tenancy business app that is still in production that I contribute to. The dashboard was developed by me.',
     imgSrc: '/static/images/projectCards/dashboard-lightmode.png',
     href: 'https://github.com/Cwarcup/nextjs-tailwind-portfolio',
     deployed: 'https://nextjs-tailwind-portfolio-cwarcup.vercel.app/',
-    tools: ['React', 'Nextjs', 'Tailwind CSS', 'Framer Motion'],
+    tools: ['JavaScript', 'Vue', 'Vuetify', 'Tailwind CSS', 'Figma'],
   },
   {
     title: 'Dashboard Dark Mode',
-    description: `This is a project that I built while learning React and Redux. It is a fully functional e-commerce website that allows users to sign in with their Google account, add items to their cart, and make payments with Stripe. It is built with TypeScript, React, Redux, Firebase, Stripe, and Tailwind.`,
+    description:
+      'This is is the dashboard in dark mode for RubyLog, a desktop multi-tenancy business app that is still in production that I contribute to. The dashboard was developed by me.',
     imgSrc: '/static/images/projectCards/dashboard-darkmode.png',
     href: 'https://github.com/Cwarcup/ecom-firebase',
     deployed: 'https://firebase-store-cwarcup.netlify.app/',
-    tools: ['React', 'Redux', 'Firebase', 'Stripe', 'Tailwind CSS'],
+    tools: ['JavaScript', 'Vue', 'Vuetify', 'Tailwind CSS', 'Figma'],
   },
   {
     title: 'Dashboard UI',
@@ -58,49 +59,12 @@ const projectsData = [
     tools: ['JavaScript', 'Bootstrap', 'Moment.js', 'Tailwind CSS'],
   },
   {
-    title: 'Cthulhu Teaches Typing',
-    description: `TCthulhu Teaches Typing is a typing game for learning to type. Our goal was to target the keyboard enthusiast market with a minimal, yet customizable application to track and compare typing statistics. We also wanted to create a fun and engaging typing game that would help users learn to type faster and more accurately.`,
-    imgSrc: '/static/images/projectCards/CTT.jpg',
+    title: 'Website - Custom Wordpress Theme',
+    description: `This is a website I created for a new up and cmoing consulting business. I customized a Wordpress theme with the client providing the main content to be used.`,
+    imgSrc: '/static/images/projectCards/website.png',
     href: 'https://github.com/Cwarcup/ctt-front-end',
     deployed: 'https://www.cthulhuteachestyping.com/',
     tools: ['React', 'Tailwind CSS', 'Socket.io', 'Node.js', 'PostgreSQL', 'Ruby on Rails'],
-  },
-  {
-    title: 'Jungle - E-Commerce Application',
-    description: `A mini e-commerce application built with Rails 6.1. This project was completed as part of the Lighthouse Labs Web Development Bootcamp. Jungle allows visitors to browse products, add them to their cart, and purchase them using Stripe. Admins can add and remove products and categories, and view sales data.`,
-    imgSrc: '/static/images/projectCards/jungle.jpg',
-    href: 'https://github.com/Cwarcup/jungle-rails',
-    tools: ['Ruby on Rails', 'PostgreSQL', 'Stripe', 'Bootstrap', 'Cypress', 'RSpec'],
-  },
-  {
-    title: 'On Your Mental Podcast',
-    description: `Website for the On Your Mental Podcast. On Your Mental focuses on mental health and wellness. The website was built using Next.js and Tailwind CSS. The website is hosted on Vercel. Content is updated automatically when new episodes are published using the RSS feed and Youtube API.`,
-    imgSrc: '/static/images/projectCards/OnYourMental.jpg',
-    href: 'https://github.com/Cwarcup/on-your-mental',
-    deployed: 'www.onyourmental.com',
-    tools: ['React', 'Next.js', 'Tailwind CSS', 'Vercel', 'RSS Feed', 'Youtube API'],
-  },
-  {
-    title: 'TinyApp',
-    description: `TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly). Includes features such as authentication, analytics dashboard, hashed passwords, encrypted cookies. Built with Express and EJS.`,
-    imgSrc: '/static/images/projectCards/tinyApp.jpg',
-    href: 'https://github.com/Cwarcup/tinyapp',
-    tools: ['Node.js', 'Express', 'EJS', 'bcrypt', 'cookie-session'],
-  },
-  {
-    title: 'lotide',
-    description: `A library similar to lodash for JavaScript. This project was created and published by me as part of my learnings at Lighthouse Labs. The library provides utilities that are not built into native JavaScript such as 'flatten()' to convert nested arrays into a single array.`,
-    imgSrc: '/static/images/projectCards/lotide.jpg',
-    href: 'https://github.com/Cwarcup/lotide#readme',
-    deployed: 'https://www.npmjs.com/package/@cwarcup/lotide',
-    tools: ['JavaScript', 'Node.js', 'Mocha', 'Chai'],
-  },
-  {
-    title: 'jsBooks - Interactive Notes and Code Cells',
-    description: `This is an interactive coding environment. You can write Javascript, see it executed, and write comprehensive documentation using markdown.`,
-    imgSrc: '/static/images/projectCards/jsBooks.jpg',
-    href: 'https://github.com/Cwarcup/jbook',
-    tools: ['React', 'TypeScript', 'Babel', 'Webpack', 'Monaco Editor', 'NPM', 'Lerna'],
   },
 ]
 

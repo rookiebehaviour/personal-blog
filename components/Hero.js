@@ -38,12 +38,13 @@ export default function Hero() {
   return (
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
-        Web Developer - specializing in business web apps
+        Frontend Web Developer
       </h1>
       <p className="mt-6 text-base text-gray-600 dark:text-gray-400">
         I'm Jacqueline, a Web Developer based in Middletown, OH. I'm currently contributing to
         several startup product launches, including Hephium's business app, RubyLog (coming soon). I
-        enjoy working with a team to solve problems and build solutions.
+        enjoy working with a team to solve problems and build solutions. Connect with me for career
+        opportunities.
       </p>
       <div className="mt-6 flex gap-6">
         <SocialLink

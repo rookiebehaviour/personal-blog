@@ -6,7 +6,7 @@ import {
   SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
-  SiSupabase,
+  SiWordpress,
   SiTailwindcss,
   SiVuedotjs,
   SiVuetify,
@@ -60,8 +60,8 @@ const skills = [
     logo: SiNodedotjs,
   },
   {
-    name: 'Supabase',
-    logo: SiSupabase,
+    name: 'Wordpress',
+    logo: SiWordpress,
   },
   {
     name: 'Figma',

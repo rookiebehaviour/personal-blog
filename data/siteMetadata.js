@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'About Jacqueline Mason | Web Developer',
+  title: 'Jacqueline Mason | Web Developer',
   author: 'Jacqueline Mason',
   headerTitle: 'Jacqueline Mason - Web Developer',
   description: `Personal portfolio and blog by Jacqueline Mason, Web Developer.`,
@@ -12,16 +12,13 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'jmason.tta@gmail.com',
   github: 'https://github.com/rookiebehaviour',
-  twitter: 'https://twitter.com/curtiswarcup',
-  facebook: 'https://www.facebook.com/curtis.wwwwww',
-  youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/jacquelinesd/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
     // supports plausible, simpleAnalytics, umami or googleAnalytics
-    plausibleDataDomain: 'https://cwarcup.com/', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'https://jacqueline-mason.netlify.app', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     googleAnalyticsId: process.env.NEXT_PUBLIC_GOOGLE_ANALYTIC_ID, // e.g. UA-000000-2 or G-XXXXXXX
