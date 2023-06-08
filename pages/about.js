@@ -47,14 +47,14 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Jacqueline Mason. A Web Developer based in Ohio.
+              Hi 👋🏽 I'm Jacqueline Mason.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                My name is Jacqueline Mason. I'm a creative Frontend Web Developer from Middletown,
-                Ohio. I predominantly work within the MERN and MEVN stacks, but I love learning new
-                frameworks and technologies... like Svelte 😍. In my free time, I like gaming
-                (PlayStation and PC), roller skating, bowling, and spending time with my family.
+                I'm a creative Frontend Web Developer from Middletown, Ohio. I predominantly work
+                within the MERN and MEVN stacks, but I love learning new frameworks and
+                technologies... like Svelte 😍. In my free time, I like gaming (PlayStation and PC),
+                roller skating, bowling, and spending time with my family.
               </p>
               <p>
                 The online community knows me as Rookie Behaviour, or simply... Rookie. No, it has
