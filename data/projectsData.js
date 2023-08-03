@@ -1,5 +1,13 @@
 const projectsData = [
   {
+    title: 'Custom WordPress Website',
+    description: `This is a website I designed and developed for a new up and coming HR leadership coaching business. I customized a Wordpress theme and integrated plugins and APIs along with custom CSS.`,
+    imgSrc: '/static/images/projectCards/TVPS-home.png',
+    href: 'https://thevpsolutions.com/',
+    deployed: 'https://thevpsolutions.com/',
+    tools: ['WordPress', 'JavaScript', 'Stripe API', 'Booking API'],
+  },
+  {
     title: 'RubyLog - Login Page',
     description:
       'The RubyLog project is still in development and will be live soon. This is the login page for a multi-tenancy business app that I still contribute to for Hephium (A startup Software Development Company based in Florida). I am one of the original developers on this project.',
@@ -12,14 +20,6 @@ const projectsData = [
     description:
       'This is the dashboard in light mode for RubyLog, a desktop multi-tenancy business app that is still in production that I contribute to. The dashboard was developed by me.',
     imgSrc: '/static/images/projectCards/dashboard-lightmode.png',
-    deployed: 'https://www.hephium.com/products',
-    tools: ['JavaScript', 'Vue', 'Vuetify', 'Tailwind CSS', 'Figma'],
-  },
-  {
-    title: 'RubyLog - Dashboard Dark Mode',
-    description:
-      'This is the dashboard in dark mode for RubyLog, a desktop multi-tenancy business app that is still in production that I contribute to. The dashboard was developed by me.',
-    imgSrc: '/static/images/projectCards/dashboard-darkmode.png',
     deployed: 'https://www.hephium.com/products',
     tools: ['JavaScript', 'Vue', 'Vuetify', 'Tailwind CSS', 'Figma'],
   },
@@ -41,6 +41,14 @@ const projectsData = [
     ],
   },
   {
+    title: 'RubyLog - Dashboard Dark Mode',
+    description:
+      'This is the dashboard in dark mode for RubyLog, a desktop multi-tenancy business app that is still in production that I contribute to. The dashboard was developed by me.',
+    imgSrc: '/static/images/projectCards/dashboard-darkmode.png',
+    deployed: 'https://www.hephium.com/products',
+    tools: ['JavaScript', 'Vue', 'Vuetify', 'Tailwind CSS', 'Figma'],
+  },
+  {
     title: 'Dictionary App',
     description: `This dictionary app is a personal project of mine I created when I was learning more advanced concepts of React and APIs. You type a word in the search box and if it finds a definition, it will show the difinition along with any images (if any) related to that word.`,
     imgSrc: '/static/images/projectCards/react-dictionary-app.png',
@@ -55,14 +63,6 @@ const projectsData = [
     href: 'https://github.com/rookiebehaviour/world-clock',
     deployed: 'https://candid-rugelach-253e35.netlify.app/',
     tools: ['JavaScript', 'Bootstrap', 'Moment.js', 'Tailwind CSS'],
-  },
-  {
-    title: 'Website - Custom Wordpress Theme',
-    description: `This is a website in active development that I'm creating for a new up and coming consulting business. I customized a Wordpress theme with the client providing the main content to be used. It's still in development and will be live soon!`,
-    imgSrc: '/static/images/projectCards/website.png',
-    href: 'https://thevpsolutions.com/',
-    deployed: 'https://thevpsolutions.com/',
-    tools: ['React', 'Tailwind CSS', 'Socket.io', 'Node.js', 'PostgreSQL', 'Ruby on Rails'],
   },
 ]
 
