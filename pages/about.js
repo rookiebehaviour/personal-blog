@@ -51,18 +51,17 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I'm a creative Frontend Web Developer from Middletown, Ohio. I predominantly work
-                within the MERN and MEVN stacks, but I love learning new frameworks and
-                technologies... like Svelte 😍. In my free time, I like gaming (PlayStation and PC),
-                roller skating, bowling, and spending time with my family.
+                I'm a creative Frontend & .Net Core Applications Web Developer from Middletown,
+                Ohio. Most of my experience is in frontend, but I recently picked up C#/.Net Core to
+                expand on my skills. In my free time, I like gaming (PlayStation and PC), roller
+                skating, bowling, and spending time with my family.
               </p>
               <p>
                 The online community knows me as Rookie Behaviour, or simply... Rookie. No, it has
                 nothing to do with my coding skills, but my gaming skills 😂. I ran my own Virtual
                 Assistance business for almost a decade before changing careers so I have a heart
                 for small businesses along with non-profits. <br /> <br /> My interests include:{' '}
-                <br /> Full-Stack Web Development • Front-End • Web Apps • Responsive Web Design •
-                Ethical Hacking Enthusiast (PenTester)
+                <br /> Full-Stack Web Development • Front-End • Web Apps • Responsive Web Design
               </p>
             </div>
           </div>

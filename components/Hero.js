@@ -38,22 +38,25 @@ export default function Hero() {
   return (
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
-        Frontend Web Developer
+        JavaScript & .NET Core Web Applications Developer
       </h1>
       <p className="mt-6 text-base text-gray-600 dark:text-gray-400">
-        I'm Jacqueline, a Web Developer based in Middletown, OH. I'm currently contributing to
-        several startup product launches, including Hephium's business app, RubyLog (coming soon). I
-        enjoy working with a team to solve problems and build solutions. Connect with me for career
-        opportunities.
+        I'm Jacqueline, a Web Applications Developer based in Middletown, OH with over 2+ years
+        experience. Until recently, my work has mainly consisted of frontend development with
+        JavaScript frameworks and technologies including Reactjs, Vuejs, Vuetify (UI framework for
+        Vue) and Nextjs. This year, I decided to expand my skills to include backend. I now create
+        Full-Stack and server side applications using C#/.NET Core. I'm interested in careers in
+        Frontend with vanilla JavaScript or React/Vue frameworks as well as Full-Stack in C#/.Net
+        Core stack.
       </p>
       <div className="mt-6 flex gap-6">
         <SocialLink
-          href="https://github.com/Cwarcup"
+          href="https://github.com/rookiebehaviour"
           aria-label="Check out my Github"
           icon={IoLogoGithub}
         />
         <SocialLink
-          href="https://www.linkedin.com/in/curtiswarcup/"
+          href="https://www.linkedin.com/in/jacquelinesd/"
           aria-label="Connect with me on LinkedIn"
           icon={IoLogoLinkedin}
         />

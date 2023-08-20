@@ -9,9 +9,12 @@ import {
   SiWordpress,
   SiTailwindcss,
   SiVuedotjs,
-  SiVuetify,
   SiBootstrap,
   SiFigma,
+  SiCsharp,
+  SiDotnet,
+  SiMicrosoftsqlserver,
+  SiVisualstudio,
 } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
@@ -40,10 +43,6 @@ const skills = [
     logo: SiVuedotjs,
   },
   {
-    name: 'Vuetify',
-    logo: SiVuetify,
-  },
-  {
     name: 'Nextjs',
     logo: SiNextdotjs,
   },
@@ -67,12 +66,28 @@ const skills = [
     name: 'Figma',
     logo: SiFigma,
   },
+  {
+    name: 'Visual Studio',
+    logo: SiVisualstudio,
+  },
+  {
+    name: 'C-Sharp',
+    logo: SiCsharp,
+  },
+  {
+    name: 'ASP.NET Core',
+    logo: SiDotnet,
+  },
+  {
+    name: 'Microsoft SQL',
+    logo: SiMicrosoftsqlserver,
+  },
 ]
 
 const Skills = () => {
   return (
     <>
-      <span className="font-poppins title-font text-3xl font-bold">My Top Skills</span>
+      <span className="font-poppins title-font text-3xl font-bold">My Toolbox</span>
       <motion.div
         initial="hidden"
         whileInView="visible"
