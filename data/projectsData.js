@@ -1,5 +1,36 @@
 const projectsData = [
   {
+    title: 'Movie App Homepage - Dark Mode',
+    description:
+      'Home page of the Movie App with CRUD features, MS SQL databse and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
+    imgSrc: '/static/images/projectCards/mvc_movieapp-home-dark-mode.png',
+    href: 'https://github.com/rookiebehaviour/MvcMovie',
+    tools: ['JavaScript', 'C#', '.NET Core', 'MVC', 'MS SQL'],
+  },
+  {
+    title: 'Movie App Movies Index - Light Mode',
+    description:
+      'Index Page of the Movie App with CRUD features, MS SQL databse and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
+    imgSrc: '/static/images/projectCards/mvc_movieapp-movies-light-mode.png',
+    href: 'https://github.com/rookiebehaviour/MvcMovie',
+    tools: ['JavaScript', 'C#', '.NET Core', 'MVC', 'MS SQL'],
+  },
+  {
+    title: 'Vacation Planner App Homepage',
+    description: 'Home page of the Vacation Planner App',
+    imgSrc: '/static/images/projectCards/vacay_plannerapp-home.png',
+    href: 'https://github.com/rookiebehaviour/VacationPlanner',
+    tools: ['C#', '.NET Core', 'Blazor Server'],
+  },
+  {
+    title: 'Vacation Planner App Todo Page',
+    description:
+      'Todo page of the Vacation App. Shows list of todo items and instantly updates Incomplete and Complete items.',
+    imgSrc: '/static/images/projectCards/vacay_plannerapp-todo.png',
+    href: 'https://github.com/rookiebehaviour/VacationPlanner',
+    tools: ['C#', '.NET Core', 'Blazor Server'],
+  },
+  {
     title: 'Custom WordPress Website',
     description: `This is a website I designed and developed for a new up and coming HR leadership coaching business. I customized a Wordpress theme and integrated plugins and APIs along with custom CSS.`,
     imgSrc: '/static/images/projectCards/TVPS-home.png',

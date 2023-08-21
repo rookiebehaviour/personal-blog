@@ -24,7 +24,7 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <Hero />
       <Skills />
-      <RecentProjects MAX_PROJECTS="4" />
+      <RecentProjects MAX_PROJECTS="6" />
 
       <div className="container mx-auto divide-y divide-gray-700">
         <div className="my-4 flex flex-col">
