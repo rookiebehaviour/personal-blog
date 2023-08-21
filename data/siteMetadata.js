@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Jacqueline Mason | Web Developer',
+  title: 'Web Applications Developer',
   author: 'Jacqueline Mason',
-  headerTitle: 'Jacqueline Mason - Web Developer',
-  description: `Personal portfolio and blog by Jacqueline Mason, Web Developer.`,
+  headerTitle: 'Jacqueline Mason - Web Applications Developer',
+  description: `Personal portfolio and blog by Jacqueline Mason, Web Applications Developer.`,
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://jacqueline-mason.netlify.app',

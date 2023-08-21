@@ -47,21 +47,21 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hi 👋🏽 I'm Jacqueline Mason.
+              Hi 👋🏽 I'm Jacqueline Mason...
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I'm a creative Frontend & .Net Core Applications Web Developer from Middletown,
-                Ohio. Most of my experience is in frontend, but I recently picked up C#/.Net Core to
-                expand on my skills. In my free time, I like gaming (PlayStation and PC), roller
-                skating, bowling, and spending time with my family.
+                A creative Frontend & Web Applications Developer from Middletown, Ohio. Most of my
+                experience is in frontend, but I recently picked up C#/.Net Core to expand on my
+                skills. In my free time, I like gaming (PlayStation and PC), roller skating,
+                bowling, and spending time with my family.
               </p>
               <p>
                 The online community knows me as Rookie Behaviour, or simply... Rookie. No, it has
                 nothing to do with my coding skills, but my gaming skills 😂. I ran my own Virtual
                 Assistance business for almost a decade before changing careers so I have a heart
                 for small businesses along with non-profits. <br /> <br /> My interests include:{' '}
-                <br /> Full-Stack Web Development • Front-End • Web Apps • Responsive Web Design
+                <br /> Full-Stack Web Development • Frontend • Web Apps • Responsive Web Design
               </p>
             </div>
           </div>

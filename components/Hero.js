@@ -38,7 +38,7 @@ export default function Hero() {
   return (
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
-        JavaScript & .NET Core Web Applications Developer
+        Web Applications Developer
       </h1>
       <p className="mt-6 text-base text-gray-600 dark:text-gray-400">
         I'm Jacqueline, a Web Applications Developer based in Middletown, OH with over 2+ years
@@ -46,8 +46,8 @@ export default function Hero() {
         JavaScript frameworks and technologies including Reactjs, Vuejs, Vuetify (UI framework for
         Vue) and Nextjs. This year, I decided to expand my skills to include backend. I now create
         Full-Stack and server side applications using C#/.NET Core. I'm interested in careers in
-        Frontend with vanilla JavaScript or React/Vue frameworks as well as Full-Stack in C#/.Net
-        Core stack.
+        Frontend with vanilla JavaScript or React/Vue frameworks as well as Full-Stack in the
+        C#/.Net Core framework.
       </p>
       <div className="mt-6 flex gap-6">
         <SocialLink
