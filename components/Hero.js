@@ -38,7 +38,7 @@ export default function Hero() {
   return (
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
-        Jacqueline Mason <br /> Web Applications Developer
+        Hi 👋🏽 I'm Jacqueline Mason <br /> Web Applications Developer
       </h1>
       <p className="mt-6 text-2xl text-gray-600 dark:text-gray-400">
         Frontend - (JavaScript) React | Vue | Next
