@@ -273,7 +273,7 @@ Launch QMK Toolbox.
 
 Drag your newly created "gmmk_pro_ansi_noobs.bin" into the input area beside the "open" button. This is the path to your ""gmmk_pro_ansi_noobs.bin" file.
 
-![qmk mac](https://github.com/Cwarcup/How-To-QMK-macOS/blob/main/images/qmkmac.png?raw=true)
+![qmk pc](https://github.com/Cwarcup/How-To-QMK-macOS/blob/main/images/qmkmac.png?raw=true)
 
 Hold spacebar+b on your GMMK Pro while plugging in the usb cable, this should put it into the bootloader mode. If that did not work, you can also try to hold ESC (top left corner) while plugging in the usb cable. You should see a message in the QMK Toolbox that indicates that your board is in STM DFU Bootloader Mode.
 

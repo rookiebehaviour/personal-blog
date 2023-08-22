@@ -2,7 +2,7 @@ import ToolsGrid from '/components/ToolsGrid'
 import { PageSEO } from '@/components/SEO'
 import siteMetadata from '/data/siteMetadata'
 import { HeartIcon } from '@heroicons/react/solid'
-import { AiFillApple, AiOutlineMacCommand, AiFillWindows, AiOutlineDesktop } from 'react-icons/ai'
+import { AiFillWindows, AiOutlineDesktop, AiFillAndroid } from 'react-icons/ai'
 import { Tab } from '@headlessui/react'
 import { Analytics } from '@vercel/analytics/react'
 
@@ -30,8 +30,8 @@ export default function Tools() {
                     : 'bg-grey-100 flex items-center rounded-md p-2'
                 }
               >
-                <AiFillApple />
-                <span>iOS</span>
+                <AiFillAndroid />
+                <span>android</span>
               </Tab>
               <Tab
                 className={({ selected }) =>
@@ -40,8 +40,8 @@ export default function Tools() {
                     : 'bg-grey-100 flex items-center rounded-md p-2'
                 }
               >
-                <AiOutlineMacCommand />
-                <span className="">macOS</span>
+                <AiFillWindows />
+                <span className="">Windows</span>
               </Tab>
               <Tab
                 className={({ selected }) =>
@@ -58,14 +58,14 @@ export default function Tools() {
               <Tab.Panel>
                 <div className="container py-12">
                   <div className="-m-4 flex flex-wrap justify-center">
-                    <ToolsGrid filter="ios" />
+                    <ToolsGrid filter="android" />
                   </div>
                 </div>
               </Tab.Panel>
               <Tab.Panel>
                 <div className="container py-12">
                   <div className="-m-4 flex flex-wrap justify-center">
-                    <ToolsGrid filter="mac" />
+                    <ToolsGrid filter="pc" />
                   </div>
                 </div>
               </Tab.Panel>
