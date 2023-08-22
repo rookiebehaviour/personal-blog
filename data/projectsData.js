@@ -3,7 +3,7 @@ const projectsData = [
     title: 'Movie App Homepage - Dark Mode',
     description:
       'Home page of the Movie App with CRUD features, MS SQL databse and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
-    imgSrc: '/static/images/projectCards/mvc_movieapp-home-dark-mode.png',
+    imgSrc: '/static/images/projectCards/mvc_movieapp-home2-dark-mode.png',
     href: 'https://github.com/rookiebehaviour/MvcMovie',
     tools: ['JavaScript', 'C#', '.NET Core', 'MVC', 'MS SQL'],
   },
@@ -11,7 +11,7 @@ const projectsData = [
     title: 'Movie App Movies Index - Light Mode',
     description:
       'Index Page of the Movie App with CRUD features, MS SQL databse and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
-    imgSrc: '/static/images/projectCards/mvc_movieapp-movies-light-mode.png',
+    imgSrc: '/static/images/projectCards/mvc_movieapp-movies2-light-mode.png',
     href: 'https://github.com/rookiebehaviour/MvcMovie',
     tools: ['JavaScript', 'C#', '.NET Core', 'MVC', 'MS SQL'],
   },
