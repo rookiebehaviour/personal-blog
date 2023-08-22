@@ -16,17 +16,10 @@ const projectsData = [
     tools: ['JavaScript', 'C#', '.NET Core', 'MVC', 'Entity Framework', 'MS SQL'],
   },
   {
-    title: 'Vacation Planner App Homepage',
-    description: 'Home page of the Vacation Planner App',
-    imgSrc: '/static/images/projectCards/vacay_plannerapp-home.png',
-    href: 'https://github.com/rookiebehaviour/VacationPlanner',
-    tools: ['C#', '.NET Core', 'Blazor Server'],
-  },
-  {
-    title: 'Vacation Planner App Todo Page',
+    title: 'Vacation Planner App',
     description:
-      'Todo page of the Vacation App. Shows list of todo items and instantly updates Incomplete and Complete items.',
-    imgSrc: '/static/images/projectCards/vacay_plannerapp-todo.png',
+      'Vacation planner app where you can add details about your vaction, add todo list items, etc.',
+    imgSrc: '/static/images/projectCards/vacay_plannerapp-home.png',
     href: 'https://github.com/rookiebehaviour/VacationPlanner',
     tools: ['C#', '.NET Core', 'Blazor Server'],
   },
