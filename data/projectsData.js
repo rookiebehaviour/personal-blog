@@ -2,26 +2,25 @@ const projectsData = [
   {
     title: 'Movie App Homepage - Dark Mode',
     description:
-      'Home page of the Movie App with CRUD features, MS SQL databse and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
+      'Home page of the Movie App with CRUD features, MS SQL database and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
     imgSrc: '/static/images/projectCards/mvc_movieapp-home2-dark-mode.png',
     href: 'https://github.com/rookiebehaviour/MvcMovie',
     tools: ['JavaScript', 'C#', '.NET Core', 'MVC', 'Entity Framework', 'MS SQL'],
   },
   {
+    title: 'Logistics Web App',
+    description: 'Full-Stack Logistics Web App for employees to create orders and invoices.',
+    imgSrc: '/static/images/projectCards/login.png',
+    deployed: 'https://quickdelivery-69d68.web.app/login',
+    tools: ['JavaScript', 'React', 'Firebase Auth', 'Firebase'],
+  },
+  {
     title: 'Movie App Movies Index - Light Mode',
     description:
-      'Index Page of the Movie App with CRUD features, MS SQL databse and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
+      'Index Page of the Movie App with CRUD features, MS SQL database and light / dark mode. View a list of movies, filter by genre, edit, add, delete a listing.',
     imgSrc: '/static/images/projectCards/mvc_movieapp-movies2-light-mode.png',
     href: 'https://github.com/rookiebehaviour/MvcMovie',
     tools: ['JavaScript', 'C#', '.NET Core', 'MVC', 'Entity Framework', 'MS SQL'],
-  },
-  {
-    title: 'Vacation Planner App',
-    description:
-      'Vacation planner app where you can add details about your vaction, add todo list items, etc.',
-    imgSrc: '/static/images/projectCards/vacay_plannerapp-home.png',
-    href: 'https://github.com/rookiebehaviour/VacationPlanner',
-    tools: ['C#', '.NET Core', 'Blazor Server'],
   },
   {
     title: 'Custom WordPress Website',
