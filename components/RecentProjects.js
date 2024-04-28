@@ -21,10 +21,10 @@ const RecentProjects = ({ MAX_PROJECTS }) => {
             height="315"
             src="https://www.youtube.com/embed/qefiTqOyaVI?si=HJYaGEaE9__mQYPw"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className="py-5">
