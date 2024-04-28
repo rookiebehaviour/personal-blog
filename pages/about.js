@@ -46,29 +46,33 @@ export default function About() {
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2">
-            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hi 👋🏽 I'm Jacqueline Mason...
+            <h1 className="text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
+              More about myself...
             </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 space-y-7 text-justify text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                A Web Applications Developer based in Middletown, OH with over 2+ years experience.
-                Until recently, my work has mainly consisted of frontend development with JavaScript
-                frameworks and technologies including Reactjs, Vuejs, Vuetify (UI framework for Vue)
-                and Nextjs. This year (2023), I decided to expand my skills to include backend. I
-                now create Full-Stack and server side applications using C#/.NET Core.
+                I'm Jacqueline Mason, a Web Application Developer based in Middletown, OH, with over
+                3 years of experience. My expertise lies predominantly with JavaScript frameworks
+                like React.js, Vue.js, and Vuetify (a UI framework for Vue), as well as Next.js. In
+                2023, I expanded my skills to include backend development and C#/ASP.Net Core,
+                allowing me to build full-stack web applications and Progressive Web Apps (PWAs). I
+                currently work part-time as an independent contractor for Hephium (A software
+                development company) based in Florida.
               </p>
               <p>
-                The online community knows me as Rookie Behaviour, or simply... Rookie. No, it has
-                nothing to do with my coding skills, but my gaming skills 😂. I ran my own Virtual
-                Assistance business for almost a decade before changing careers so I have a heart
-                for small businesses along with non-profits.
+                Beyond coding, I'm known in the online community as Rookie Behaviour, a nod to my
+                prowess in gaming rather than my coding skills! Prior to entering the tech industry,
+                I operated my own Virtual Assistance business for almost a decade, fostering a deep
+                appreciation for small businesses and non-profits.
               </p>
               <p>
-                I'm interested in careers in Frontend with vanilla JavaScript, React, Vue, Next
-                frameworks as well as Full-Stack in the C#/.Net Core framework.
+                Currently, I'm passionate about pursuing local full-time opportunities in Web
+                Development, with a keen interest in becoming proficient in Full-Stack development
+                within the C#/.NET Core framework.
               </p>
             </div>
           </div>
+
           <div className="lg:pl-20">
             <ul role="list">
               <SocialLink href={github} icon={GitHubIcon} className="mt-4">

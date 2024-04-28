@@ -11,10 +11,13 @@ import {
   SiVuedotjs,
   SiBootstrap,
   SiFigma,
+  SiFirebase,
+  SiBlueprint,
   SiCsharp,
   SiDotnet,
   SiMicrosoftsqlserver,
   SiVisualstudio,
+  SiGit,
 } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
@@ -51,36 +54,37 @@ const skills = [
     logo: SiBootstrap,
   },
   {
-    name: 'Tailwind CSS',
-    logo: SiTailwindcss,
+    name: 'Blueprint',
+    logo: SiBlueprint,
   },
   {
-    name: 'Node.js',
-    logo: SiNodedotjs,
+    name: 'Tailwind CSS',
+    logo: SiTailwindcss,
   },
   {
     name: 'Wordpress',
     logo: SiWordpress,
   },
   {
+    name: 'Git',
+    logo: SiGit,
+  },
+  {
+    name: 'Node.js',
+    logo: SiNodedotjs,
+  },
+  {
+    name: 'Firebase',
+    logo: SiFirebase,
+  },
+  {
     name: 'Figma',
     logo: SiFigma,
   },
+
   {
     name: 'Visual Studio',
     logo: SiVisualstudio,
-  },
-  {
-    name: 'C-Sharp',
-    logo: SiCsharp,
-  },
-  {
-    name: 'ASP.NET Core',
-    logo: SiDotnet,
-  },
-  {
-    name: 'Microsoft SQL',
-    logo: SiMicrosoftsqlserver,
   },
 ]
 

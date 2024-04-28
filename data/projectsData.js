@@ -9,9 +9,10 @@ const projectsData = [
   },
   {
     title: 'Logistics Web App',
-    description: 'Full-Stack Logistics Web App for employees to create orders and invoices.',
+    description:
+      'Full-Stack Logistics Web App for employees to create orders and invoices. See live demo video.',
     imgSrc: '/static/images/projectCards/login.png',
-    deployed: 'https://quickdelivery-69d68.web.app/login',
+    deployed: 'https://youtu.be/qefiTqOyaVI?si=2NCSEmn0F0O7Qdbb',
     tools: ['JavaScript', 'React', 'Firebase Auth', 'Firebase'],
   },
   {
