@@ -10,13 +10,13 @@ const ProjectCard = ({ title, description, imgSrc, href, tools, deployed }) => (
         title={title}
         alt={title}
         src={imgSrc}
-        width={1200}
-        height={630}
+        width={1100}
+        height={530}
         layout="responsive"
         placeholder="blur"
         objectFit="cover"
         blurDataURL={imgSrc}
-        quality={50}
+        quality={75}
         className="backdrop-blur-xl transition-all duration-300 lg:group-hover:scale-110"
       />
     </div>

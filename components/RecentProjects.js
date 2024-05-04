@@ -14,19 +14,7 @@ const RecentProjects = ({ MAX_PROJECTS }) => {
         <div className="my-4">
           <span className="font-poppins title-font text-3xl font-bold">Recent Projects</span>
         </div>
-        <div className="mx-auto py-5">
-          <span>Short Demo of Logistics Web App</span>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/qefiTqOyaVI?si=HJYaGEaE9__mQYPw"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
+
         <div className="py-5">
           <AnimatedDiv
             variants={FadeContainer}
@@ -49,6 +37,18 @@ const RecentProjects = ({ MAX_PROJECTS }) => {
           <Link href="/projects" className="mt-5 hover:text-primary-400" aria-label="all posts">
             All Projects &rarr;
           </Link>
+        </div>
+        <div className="video-container mx-auto">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/P01emvbIoKE?si=Q1-uiyigA8aBfkyd"
+            title="Short demo of logistics web app YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </>

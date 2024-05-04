@@ -36,9 +36,9 @@ function CopyToClipboard({ icon: Icon, text, ...props }) {
 
 export default function Hero() {
   return (
-    <div className="mb-5 max-w-2xl">
+    <div className="mb-5 max-w-5xl">
       <h1 className="text-3xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-4xl">
-        "Hello there! 👋🏽 I'm Jacqueline, a passionate Web Application Developer.
+        Hello there! 👋🏽 I'm Jacqueline, a passionate Web Application Developer.
       </h1>
       <p className="mt-6 text-xl text-gray-600 dark:text-gray-400">
         Delve into my world of digital craftsmanship where I bring ideas to life through a fusion of
