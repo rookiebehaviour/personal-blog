@@ -79,5 +79,13 @@ const Tools = [
     name: `chatGPT`,
     description: `AI-powered language model by OpenAI (Free & paid versions).`,
   },
+  {
+    id: `linear`,
+    category: ['pc', 'web'],
+    link: `https://linear.app/homepage`,
+    labels: ['Issue Tracker', 'Project Planning Tool'],
+    name: `Linear`,
+    description: `Streamline issues, sprints, and product roadmaps.`,
+  },
 ]
 export default Tools
